@@ -25,6 +25,17 @@
             padding: 20px;
         }
 
+        img{
+          
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* This creates the rounded shape */
+            overflow: hidden; /* Clips the image to the rounded shape */
+            
+        }
+            
+        
+
         h2 {
             color: #000;
         }
@@ -54,7 +65,9 @@
 <body>
     <header>
         <h1>Ifeoma Adibe</h1>
+        <img class="img" src="./img.jpg" alt="">    
         <p>Frontend Developer</p>
+        
     </header>
 
     <div id="content">
@@ -73,10 +86,28 @@
             </ul>
         </section>
 
+        <section id="Educational Background">
+            <h2>Educational Background</h2>
+            <ul>
+                <li><b>Secondary School</b>: LSSMCB </li>
+                <li><b>University</b>: University of Lagos</li>
+            </ul>
+        </section>
+
         <section id="colors">
             <h2>Favorite Colors</h2>
             <p>My favorite colors are white and black.</p>
         </section>
+
+        <section id="contact">
+            <a href="tel:+2348126146861">Phone</a>
+            <a href="https://github.com/ifeomadibe">GitHub</a>
+            <a href="https://instagram.com/adibeifeomajoy">Instagram</a>
+        </section>
     </div>
+
+    <footer>
+        ©2023 by IFEOMA ADIBE
+    </footer>
 </body>
 </html>
